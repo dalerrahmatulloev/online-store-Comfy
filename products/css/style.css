@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*           Navbar Style            */
+.navbarUp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 130px;
+}
+
+.navbarUpLeft {
+    display: flex;
+    color: rgba(34, 34, 34, 1);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.navbarUpLeft a{
+    text-decoration-line: none;
+    color: rgba(34, 34, 34, 1);
+}
+
+.navbarUpLeft a:visited{
+    color: rgba(34, 34, 34, 1);
+    text-decoration-line: none;
+}
+
+.products {
+    margin-left: 70px;
+}
+
+.about {
+    margin-left: 70px;
+}
+
+.Logo {
+    color: rgba(34, 34, 34, 1);
+    font-family: "Charm";
+    font-size: 48px;
+    margin-right: 310px;
+}
+
+.navbarUpRight {
+    position: relative;
+}
+
+.navbarUpRight i {
+    color: rgba(34, 34, 34, 1)rgba(34, 34, 34, 1);
+    font-size: 35px;
+}
+
+.navbarUpRight div {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: rgba(186, 93, 44, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    top: -5px;
+    right: -10px;
+}
+.navbarDown{
+    color: rgba(35, 82, 117, 1);
+    padding: 0px 130px 10px 130px;
+    font-family: sans-serif;
+    font-weight: 100;
+    background-color: rgb(233, 245, 255);
+    margin-top: 10px;
+    height: 150px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+/*           Products Style            */
+
+.productsDiv {
+    display: flex;
+    padding: 0px 130px 100px 130px;
+}
+.search{
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: rgb(230, 244, 255);
+    border: none;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px
+}
+.search::placeholder{
+    color: rgba(35, 82, 117, 1);
+}
+
+.company{
+    margin-top: 30px;
+}
+.company h3{
+    color: rgba(34, 34, 34, 1);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.company p{
+    color: rgba(35, 82, 117, 1);
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.priceDiv{
+    margin-top: 30px;
+}
+.priceDiv h3{
+    color: rgba(34, 34, 34, 1);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.priceDiv input{
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+}
+.priceDiv p{
+    color: rgba(35, 82, 117, 1);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.content{
+    margin-left: 30px;
+    width: 100%;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    width: 310px;
+    margin-top: 30px;
+}
+.card img {
+    width: 310px;
+    height: 200px;
+}
+.card h3 {
+    color: rgba(0, 0, 0, 0.38);
+    margin-top: 20px;
+    text-align: center;
+}
+.card p {
+    color: rgba(34, 34, 34, 1);
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*           Window Style            */
+.window{
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    display: none;
+}
+.footer{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.footerLeft img{
+    width: 612px;
+    height: 433px;
+}
+.footerRight{
+    width: 548px;
+    height: 442px;
+    margin-left: 40px;
+}
+.footerRight h1{
+    color: rgba(34, 34, 34, 0.84);
+    font-family: sans-serif;
+    font-family: 40px;
+}
+.footerRight h2{
+    font-family: "Charm";
+    color: rgba(35, 82, 117, 0.5);
+    font-size: 30px;
+}
+.footerRight h3{
+    color: rgba(35, 82, 117, 1);
+    font-size: 28px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.red{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+.black{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
+    border: 4px solid rgba(186, 93, 44, 1);
+}
+
+/*           Dialog Style            */
+.dialog{
+    border: none;
+    width: 380px;
+    height: 100%;
+    background-color: white;
+    margin-left: 1140px;
+}
+.shopUp{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+}
+.shopUp i{
+    color: rgba(35, 82, 117, 1);
+    font-size: 50px;
+    font-weight: 900;
+}
+.shop h1{
+    font-family: "Charm";
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.elem{
+    display: flex;
+    padding: 0px 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.elem img{
+    width: 128px;
+    height: 90px;
+}
+.dalete{
+    color: rgba(50, 50, 50, 1);
+    font-size: 26px;
+    position: absolute;
+    top: -4px;
+    right: 20px;
+}
+.elemDiv{
+    margin-left: 16px;
+}
+.elemDiv h3{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+.elemDiv p{
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+.elemDivCnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    margin-top: 20px;
+}
+.elemDivCnt i{
+    color: rgba(186, 93, 44, 1);
+    font-size: 21px;
+} 
+.elemDivCnt h4{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 17px;
+}
+.footer2{
+    font-family: "Charm";
+    font-size: 24px;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+}
+.shop{
+    margin-bottom: 50px;
+}
+.shop button{
+    background-color: rgba(186, 93, 44, 1);
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 30px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+}

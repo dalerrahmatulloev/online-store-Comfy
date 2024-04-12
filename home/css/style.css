@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*           Navbar Style            */
+.navbar {
+    background-image: url(/images/home.png);
+    height: 675px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 130px;
+}
+
+.navbarUp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarUpLeft {
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.navbarUpLeft a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.navbarUpLeft a:visited{
+    color: white;
+    text-decoration-line: none;
+}
+
+.products {
+    margin-left: 70px;
+}
+
+.about {
+    margin-left: 70px;
+}
+
+.Logo {
+    color: white;
+    font-family: "Charm";
+    font-size: 48px;
+    margin-right: 290px;
+}
+
+.navbarUpRight {
+    position: relative;
+}
+
+.navbarUpRight i {
+    color: white;
+    font-size: 35px;
+}
+
+.navbarUpRight div {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: rgba(186, 93, 44, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    top: -5px;
+    right: -10px;
+}
+
+.navbarDown h1 {
+    font-family: "Charm";
+    font-size: 96px;
+    color: white;
+    margin-top: 130px;
+}
+
+.navbarDown h2 {
+    color: white;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.showNow {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+}
+
+/*           Footer Style            */
+.footer {
+    text-align: center;
+    padding-bottom: 80px;
+    padding: 100px 130px 70px 130px;
+}
+
+.footer h1 {
+    color: rgba(34, 34, 34, 1);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.footer span {
+    color: rgba(186, 93, 44, 1);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.allProj {
+    margin-top: 40px;
+    width: 180px;
+    height: 45px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgba(186, 93, 44, 1);
+    color: white;
+}
+
+.content {
+    margin-top: 30px;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    width: 387px;
+}
+
+.card img {
+    width: 387px;
+    height: 200px;
+}
+
+.card h3 {
+    color: rgba(0, 0, 0, 0.38);
+    margin-top: 20px;
+}
+
+.card p {
+    color: rgba(34, 34, 34, 1);
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/*           Window Style            */
+.window{
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    z-index: 10;
+    width: 100%;
+    display: none;
+}
+.footerWin{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.footerWinLeft img{
+    width: 612px;
+    height: 433px;
+}
+.footerWinRight{
+    width: 548px;
+    height: 442px;
+    margin-left: 40px;
+}
+.footerWinRight h1{
+    color: rgba(34, 34, 34, 0.84);
+    font-family: sans-serif;
+    font-family: 40px;
+}
+.footerWinRight h2{
+    font-family: "Charm";
+    color: rgba(35, 82, 117, 0.5);
+    font-size: 30px;
+}
+.footerWinRight h3{
+    color: rgba(35, 82, 117, 1);
+    font-size: 28px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.red{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+.black{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
+    border: 4px solid rgba(186, 93, 44, 1);
+}
+
+
+
+/*           Dialog Style            */
+.dialog{
+    border: none;
+    width: 380px;
+    height: 100%;
+    background-color: white;
+    margin-left: 1140px;
+}
+.shopUp{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+}
+.shopUp i{
+    color: rgba(35, 82, 117, 1);
+    font-size: 50px;
+    font-weight: 900;
+}
+.shop h1{
+    font-family: "Charm";
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.elem{
+    display: flex;
+    padding: 0px 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.elem img{
+    width: 128px;
+    height: 90px;
+}
+.dalete{
+    color: rgba(50, 50, 50, 1);
+    font-size: 26px;
+    position: absolute;
+    top: -4px;
+    right: 20px;
+}
+.elemDiv{
+    margin-left: 16px;
+}
+.elemDiv h3{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+.elemDiv p{
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+.elemDivCnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    margin-top: 20px;
+}
+.elemDivCnt i{
+    color: rgba(186, 93, 44, 1);
+    font-size: 21px;
+} 
+.elemDivCnt h4{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 17px;
+}
+.footer2{
+    font-family: "Charm";
+    font-size: 24px;
+    display: flex;
+    padding: 0px 20px;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+}
+.shop{
+    margin-bottom: 130px;
+}
+.shop button{
+    background-color: rgba(186, 93, 44, 1);
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 30px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+}
